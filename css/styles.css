@@ -21,6 +21,12 @@ h1{
     
 }
 
+.logo{
+    height: 50px;
+    width: 80px;
+    margin-left: 20px;
+}
+
 .nav-button{
     margin: 5px 8px;
 }
@@ -54,8 +60,8 @@ h1{
     display: inline-block;
     text-align: center;
     padding-top: 12px;
-
 }
+
 
 .title-p{
     width: 70px;
@@ -279,7 +285,7 @@ h1{
     }
 
     .header-container{
-        margin: auto;
+        margin: 3px;
     }
 
     .pc-img{
