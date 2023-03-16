@@ -53,9 +53,9 @@ h1{
 
 }
 
-.p-container{
-    width: 60%;
-    margin-left: 30px;
+.title-p{
+    width: 70px;
+    margin: auto;
 }
 
 .pc-img{
@@ -264,13 +264,18 @@ h1{
 }
 
 @media(max-width: 1000px) {
-    #title{
+    .big-heading{
         width: 100%;
+        margin: auto;
     }
 
     .title-row{
         text-align: center;
         margin: auto;
+    }
+
+    .header-container{
+        margin: 5px;
     }
 
     .pc-img{
