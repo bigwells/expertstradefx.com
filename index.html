@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Broker</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!--css stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--fontawsome-->
+    <script defer src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"></script>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+    <!-- nav bar -->
+    <section>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Bootstrap
+              </a>
+              <div>
+                <button class="btn btn-primary btn-md nav-button">LOGIN</button>
+                <button class="btn btn-primary btn-md nav-button">REGISTER</button>
+              </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- TradingView Widget BEGIN -->
+    <section>
+        
+        <div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                {
+                "symbols": [
+                  {
+                    "proName": "FOREXCOM:SPXUSD",
+                    "title": "S&P 500"
+                  },
+                  {
+                    "proName": "FOREXCOM:NSXUSD",
+                    "title": "Nasdaq 100"
+                  },
+                  {
+                    "proName": "FX_IDC:EURUSD",
+                    "title": "EUR/USD"
+                  },
+                  {
+                    "proName": "BITSTAMP:BTCUSD",
+                    "title": "BTC/USD"
+                  },
+                  {
+                    "proName": "BITSTAMP:ETHUSD",
+                    "title": "ETH/USD"
+                  }
+                ],
+                "showSymbolLogo": true,
+                "colorTheme": "dark",
+                "isTransparent": true,
+                "largeChartUrl": "https://www.tradingview.com/widget/ticker-tape/",
+                "displayMode": "adaptive",
+                "locale": "en"
+              }
+                </script>
+        </div>
+    </section>
+    <!-- TradingView Widget END -->
+    
+        <div class="bg"></div>
+
+    <!-- Title -->
+    <section id="title">
+        <div class="row title-row">
+            <div class="col-lg-6 col-md-6">
+                <h1 class="big-heading">ALWAYS STAY PROFITABLE IN BITCOIN</h1>
+                <div class="row slideInLeft">
+                    <div class="col-lg-12 ">
+                        <div class="header-container">
+                            <h2>816</h2>
+                            <h3>Plus</h3>
+                            <p>Traders Online</p>
+                        </div>
+                        <div class="header-container">
+                            <h2>160417</h2>
+                            <h3>Plus</h3>
+                            <p>Total Registered</p>
+                        </div>
+                        <div class="header-container">
+                            <h2>1710</h2>
+                            <h3>Plus</h3>
+                            <p>Deals Today</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6">
+                <img class="pc-img" src="images/pc-img.png" alt="pc-img">
+            </div>
+        </div>
+    </section>
+
+
+    <!--How it works -->
+    <section id="HIW">
+
+        <h2 class="hiw-heading">HOW IT WORKS</h2>
+        <div class="row row-box">
+            <div class="col-lg-4 col-md-4">
+                <img class="green-img" src="images/deposit.png" alt="deposit-img">
+                <h3>DEPOSIT</h2>
+                <P>make deposit through any cryptocurrency address given by the platform</P>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <img class="green-img" src="images/profit.png" alt="profit-img">
+                <h3>GET PROFIT</h2>
+                <p>get your profit up to 100% according to your stated ROI period</p>
+            </div>
+            <div class="col-lg-4 col-md-4">
+                <img class="green-img" src="images/withdraw.png.png" alt="withdraw-img">
+                <h3>WITHDRAW</h2>
+                <p>get your withdrawal within 7 days of investment</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Get updated with cryptos -->
+    <section id="crypto-live-prices">
+        <h2 class="crypto-live-prices-heading">GET UPDATED WITH CRYPTOS</h2>
+
+              <!-- TradingView Widget BEGIN -->
+        
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by TradingView</div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+            {
+            "width": "100%",
+            "height": "490",
+            "defaultColumn": "overview",
+            "screener_type": "crypto_mkt",
+            "displayCurrency": "USD",
+            "colorTheme": "dark",
+            "locale": "en",
+            "isTransparent": true
+          }
+            </script>
+          </div>
+          <!-- TradingView Widget END -->
+    </section>
+
+
+    <!-- Award section 
+
+    <section id="award-section">
+        <div style="background-image: url('images/hero-crypto.webp');">
+            <h2 class="award-heading">OUR PLATFORM AWARDS</h2>
+            <div class="row award-row">
+                <div class="col-lg-4">
+                    <img class="award-img" src="images/award_13.png.png" alt="award_13">
+                    <h3>Century International Quality Gold ERA Award</h3>
+                    <p class="award-p">The prestigious award was given to Expert Options Trades in recognition of our outstanding commitment to Quality and Excellence, particularly in the realm of Customer Satisfaction.</p>
+                </div>
+    
+                <div class="col-lg-4">
+                    <img class="award-img" src="images/award_10.png.png" alt="award_10">
+                    <h3>Most innovative binary option platform</h3>
+                    <p class="award-p">As Steve Jobs once said, innovation distinguishes between leaders and followers. Our innovative approach makes our product shine—and the evidence is in this beautiful accolade.</p>
+                </div>
+    
+                <div class="col-lg-4">
+                    <img class="award-img" src="images/award_5.png.png" alt="award_5">
+                    <h3>Most Reliable Binary Options Broker</h3>
+                    <p class="award-p">Our first priority is the security of our clients' funds. This was recognized by the experts at MasterForex-V, who awarded Expert Options Trades the title of Most Trusted Binary Options Broker.</p>
+                </div>
+    
+                <div class="col-lg-4">
+                    <img class="award-img" src="images/award_14.png.png" alt="award_14">
+                    <h3>The intelligent trading app for binary options</h3>
+                    <p class="award-p">The Mobile Star Awards is the largest annual mobile innovations and software awards program in the world. In 2016, the organization honored the Expert Options Trades trading app as the best in its category, praising its efficiency and impeccable design.</p>
+                </div>
+    
+                <div class="col-lg-4">
+                    <img class="award-img" src="images/award_6.png.png" alt="award_6">
+                    <h3>World's Leading Binary Options Broker</h3>
+                    <p class="award-p">At the same MasterForex-V Expert Options Trades was awarded for being the World's Leading Binary Options Broker. The perfection in our service and product was recognized by the experts of the conference in 2014.</p>
+                </div>
+    
+                <div class="col-lg-4">
+                    <img class="award-img" src="images/award_8.png.png" alt="award_8">
+                    <h3>Fastest growing binary option brand</h3>
+                    <p class="award-p">Global Brands Magazine, Britain’s reputable brand observer, awarded Expert Options Trades along with a number of outstanding European brands — an achievement worth working for.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+-->
+
+
+         <!-- PLATFORM ADVANTAGE -->
+    <section id="platform-advantage">
+        
+        <h2 class="platform-advantage-heading">OUR PLATFORM ADVANTAGES</h2>
+        <div class="row platform-advantage-row">
+            <div class="col-lg-4 col-md-6">
+                <img class="green-img" src="images/payment.png" alt="payment">
+                <h3>PAYMENT OPTIONS</h2>
+                <P>We provide various withdrawal methods</P>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <img class="green-img" src="images/security.png" alt="security">
+                <h3>STRONG SECURITY</h2>
+                <P>With advanced security systems, we keep your account always protected.</P>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <img class="green-img" src="images/world.png" alt="world-img">
+                <h3>WORLD COVERAGE</h2>
+                <P>Our platform is used by bitcoin investors worldwide.</P>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <img class="green-img" src="images/team1.png" alt="team-img">
+                <h3>EXPERIENCED TEAM</h2>
+                <P>Our experienced team helps us build the best product and deliver first class service to our clients.</P>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <img class="green-img" src="images/support1.png" alt="support1-img">
+                <h3>EXPERT SUPORT</h2>
+                <P>Our 24/7 support allows us to keep in touch with customers in all time zones and regions.</P>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <img class="green-img" src="images/exchange.png" alt="exchange-img">
+                <h3>INSTANT EXCHANGE</h2>
+                <P>Change your world today and make yourself a great tomorrow, invest with the little money you have and make a great profit at the end.</P>
+            </div>
+        </div>
+    </section>
+  
+
+            <!-- testimonial section -->
+    <section id="testimonials">
+        <h2 class="testimonial-heading">WHAT INVESTORS SAY</h2>
+        <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="testimonial-img" src="images/client-3.jpg" alt="client-img">
+                    <p class="carousel-p">l have never seen a platform that pays really good like Expert Options Trades. this is amazing. l thank every moderator here for helping me most especially to my account manager.</p>
+                    <h3>ANTONIO MORENO</h3>
+                    <p>Web Developer at <em class="company-name">Circle Ltd.</em></p>
+                    <i class="star-icon fa-solid fa-star"></i>
+                    <i class="star-icon fa-solid fa-star"></i>
+                    <i class="star-icon fa-solid fa-star"></i>
+                    <i class="star-icon fa-solid fa-star"></i>
+                    <i class="star-icon fa-solid fa-star"></i>   
+                </div>
+
+                <div class="carousel-item">
+                    <img class="testimonial-img" src="images/client-1.jpg" alt="client-img">
+                    <p class="carousel-p">I'm so excited, I give gratitude to the entire staff of Expert Options Trades for I have received my profit of $4000...thank you all especially to my manager.</p>
+                    <h3>PAULA WILSON</h3>
+                    <p>Media Analyst at <em class="company-name">SkyNet Inc.</em></p>
+                    <i class="star-icon fa-solid fa-star"></i>
+                    <i class="star-icon fa-solid fa-star"></i>
+                    <i class="star-icon fa-solid fa-star"></i>
+                    <i class="star-icon fa-solid fa-star"></i>
+                    
+                </div>
+
+                <div class="carousel-item ">
+                    <img class="testimonial-img" src="images/client-2.jpg" alt="client-img">
+                    <p class="carousel-p">This is one of the best companies I've invested in, they give high profits and they are responsible for any loss. Thank you Expert Options Trades.</p>
+                    <h3>MICHAEL HOLZ</h3>
+                    <p>Seo Analyst at <em class="company-name">OsCorp Tech.</em></p>
+                    <i class="star-icon fa-solid fa-star"></i>
+                    <i class="star-icon fa-solid fa-star"></i>
+                    <i class="star-icon fa-solid fa-star"></i>
+                    <i class="star-icon fa-solid fa-star"></i>
+                    <i class="star-icon fa-solid fa-star"></i>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+     <!--Get started section 
+
+    <section id="get-started">
+        <h1 class="payment-method-heading">GET STARTED TODAY WITH COINMAXMINING</h2>
+    </section>
+-->
+
+    <!-- footer section -->
+    <hr>
+    <footer id="footer" style="background-image: url('images/footer.png');">
+        <div class="row footer-row">
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <h5>OUR COMPANY</h4>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">PRICING</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <h5>HELP & SUPPORT</h4>
+                <ul>
+                    <li><a href="">FAQ</a></li>
+                  <!--  <li><a href="">LEGAL & CONPLIANCE</a></li>-->
+                    <li><a href="">REGISTER</a></li>
+                    <li><a href="">LOGIN</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <h5>CONTACT US</h4>
+                <div><span>support@coinmaxminingfxtrade.com</span></div>
+                <div><span>info@coinmaxminingfxtrade.com</span></div>
+                <div><span>+1 (302) 308-8884</span></div>
+                <div><span>2855 Stevens Creek BLVD</span></div>
+            </div>
+            <div class="col-lg-5">
+                <h5>MOST INNOVATIVE BINARY OPTION PLATFORM</h4>
+                <p>Coinmaxmining is the best efficient platform to invest in, we have been in the game for years without losing our rankings or getting false reviews from our clients, we offer the best services, brokers for investors, percentage rate, best customer support. With Coinmaxmining you don’t need a huge capital to start investing because we have the best pricing plans, so what are you waiting for choose a plan and let’s get started.</p>
+                <hr>
+                <div>
+                    <h5>SUPPORTED PAYMENT METHOD</h4>
+                    <img class="payment-method-img" src="images/mastercard.jpg" alt="mastercard">
+                    <img class="payment-method-img" src="images/america-express.jpg" alt="america-express">
+                    <img class="payment-method-img" src="images/visa.jpg" alt="visa card">
+                    <img class="payment-method-img" src="images/bitcoin.jpg" alt="bitcoin">
+                    <img class="payment-method-img" src="images/paypal.jpg" alt="paypal-img">
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <hr>
+            <div>
+                <!-- Copyright Text Starts -->
+                <p><em>Copyright © 2021 All Rights Reserved | Coinmaxmining</em></p>
+                <!-- Copyright Text Ends -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
