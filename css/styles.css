@@ -25,6 +25,10 @@ h1{
     margin: 5px 8px;
 }
 
+.widget{
+    background-color: #101728;
+}
+
 /* title section */
 #title{
     width: 98%;
@@ -103,7 +107,7 @@ h1{
 
 /* how it works */
 #HIW{
-    margin: 80px 0;
+    margin: auto;
     background-color: #fff;
     color: #101728;
 }
@@ -275,10 +279,11 @@ h1{
     }
 
     .header-container{
-        margin: 5px;
+        margin: auto;
     }
 
     .pc-img{
         position: static;
+        padding-top: 20px;
     }
 }
