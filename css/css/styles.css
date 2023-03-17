@@ -53,7 +53,7 @@ h1{
 
 .header-container{
     background-color: #260e69;
-    width: 8.5rem;
+    width: 30%;
     height: 165px;
     border-radius: 15%;
     margin: 10px;
@@ -143,6 +143,7 @@ h1{
 .crypto-live-prices-heading{
     font-family: 'Roboto';
     margin-bottom: 30px;
+    padding-top: 30px;
 }
 
 
@@ -285,7 +286,7 @@ h1{
     }
 
     .header-container{
-        margin: 1px;
+        margin: 2px;
     }
 
     .pc-img{
