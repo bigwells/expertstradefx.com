@@ -1,0 +1,123 @@
+
+/** navbar section **/
+.nav-section{
+    height: 70px;
+}
+
+.logo-img{
+    height: 70px;
+    width: 120px;
+    margin: 0% 50px;
+}
+
+.navbar-nav{
+    font-size: large;
+    margin: 0 30px;
+    padding-left: 30px;
+}
+
+@media(max-width: 1000px){
+    .logo-img{
+        height: 50px;
+        width: 80px;
+        margin: 0 30px;
+    }
+}
+
+
+/** title secton **/
+
+.title{
+    background-color: #101728;
+    color: #fff;
+    height: 200px;
+    margin: 0;
+}
+
+.big-heading{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 2.5;
+    padding: 50px;
+}
+
+@media(max-width: 1000px) {
+    .big-heading{
+        padding: 30px;
+        font-size: 30px;
+    }
+    .title{
+        height: 150px;
+    }
+
+}
+
+/** plan-pricing section **/
+
+#plan-pricing{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    color: #101728;
+}
+
+.plan-heading{
+    font-family: 'Roboto';
+    font-size: 40px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.icon-img{
+    height: 100px;
+    margin: 20px;
+}
+
+.plan-p{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+@media(max-width: 1000px) {
+    .plan-heading{
+        font-size: 25px;
+    }
+}
+
+/** get-started section **/
+
+#get-started{
+    text-align: center;
+    color: #fff;
+    height: 250px;
+}
+
+.get-started-heading{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/** footer section **/
+
+#footer{
+    background-color: #101728;
+    color: darkgray;
+    text-align: center;
+}
+
+.footer-row{
+    width: 90%;
+    margin: auto;
+    
+}
+
+
+.copyright{
+    background-color: #101728;
+    color: #fff;
+    text-align: center;
+    margin: 0%;
+    padding: 10px;
+}

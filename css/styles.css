@@ -243,6 +243,7 @@ h1{
     background-color: #101728;
     width: 100%;
     margin-bottom: 0%;
+    color: darkgray;
 }
 
 .footer-row{
@@ -274,6 +275,17 @@ h1{
     font-size: 0.05;
 }
 
+.nav-link:hover{
+    color: wheat;
+}
+
+.footer-hr{
+    margin: auto;
+}
+
+.copyright{
+    font-size: small;
+}
 @media(max-width: 1000px) {
     .big-heading{
         width: 100%;
@@ -287,6 +299,10 @@ h1{
 
     .header-container{
         margin: 3px;
+    }
+
+    .container-row{
+        margin-left: 10px;
     }
 
     .pc-img{
