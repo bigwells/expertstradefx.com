@@ -302,7 +302,8 @@ h1{
     }
 
     .container-row{
-        margin-left: 10px;
+        margin: auto;
+        padding-left: 30px;
     }
 
     .pc-img{
