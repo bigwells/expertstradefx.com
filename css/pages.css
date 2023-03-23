@@ -201,3 +201,132 @@ body {
         margin-bottom: 80px;
     }
 }
+
+
+/**** CONTACT-US PAGE SECTION *****/
+
+ h3{
+    text-align: center;
+    margin: 50px;
+}
+
+#contact .row{
+    width: 80%;
+    margin: auto;
+    margin: 80px;
+}
+
+
+#contact tr td:first-child{
+    padding-right: 20px;
+}
+
+#contact tr td{
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+#contact .icon{
+    margin-right: 5px;
+    color: #101728;
+}
+
+#contact input, textarea{
+    width: 530px;
+    height: 52px;
+    background: #eef3f6;
+    border: none;
+    font-size: 12px;
+    margin-bottom: 15px;
+    padding: 15px 30px;
+    font-style: italic;
+}
+#contact textarea{
+    margin-bottom: 30px;
+    height: 200px;
+}
+
+#contact button{
+    background: #101728;
+    color: #fff;
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-bottom: 3px solid #ccc;
+}
+
+@media(max-width: 1000px){
+
+    #contact input{
+        width: 100%;
+    }
+
+    #contact .col-right{
+        margin-top: 80px;
+    }
+
+    #contact .row{
+        width: 95%;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+    
+    
+}
+
+
+/******* FAQ PAGE *******/
+
+#FAQ{
+    height: 700px;
+    width: 90%;
+    margin: auto;
+    margin-left: 150px;
+    padding-top: 100px;
+    color: #101728;
+}
+
+#FAQ h3{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#FAQ input, textarea{
+    width: 530px;
+    height: 52px;
+    background: #eef3f6;
+    border: none;
+    font-size: 12px;
+    margin-bottom: 15px;
+    padding: 15px 30px;
+    font-style: italic;
+}
+
+#FAQ textarea{
+    margin-bottom: 30px;
+    height: 200px;
+}
+
+#FAQ button{
+    background: #101728;
+    color: #fff;
+    display: block;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-bottom: 3px solid #ccc;
+}
+
+@media(max-width: 1000px){
+    #FAQ{
+        width: 93%;
+        margin: auto;
+    }
+
+    #FAQ input, textarea{
+        width: 100%;
+    }
+}
+
